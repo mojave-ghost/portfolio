@@ -5,8 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .nav-bar {
-  @apply fixed top-0 left-0 right-0 z-50
+  @apply fixed top-0 left-0 right-0
           flex items-center justify-between
           h-16 px-4 bg-primary text-white
-          list-none;
+          font-montserrat;
 }

@@ -6,8 +6,8 @@ function Home() {
   return (
     <section id="home">
       <div className="intro">
-        <img src={profilePhoto} alt="Profile" />
-        <h1>Mario Salinas</h1>
+        <img src={profilePhoto} alt="Profile" className="rounded-full" />
+        <h1 className="text-blue-200">Mario Salinas</h1>
         <h2>Computer Science student and web developer passionate about innovative solutions and enhancing user experience.</h2>
         <Skills />
       </div>
