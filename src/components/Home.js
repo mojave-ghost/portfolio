@@ -4,7 +4,7 @@ import Skills from './Skills';
 
 function Home() {
   return (
-    <section id="home">
+    <section id="home" className="relative flex items-center justify-center min-h-screen">
       <div className="intro">
         <img src={profilePhoto} alt="Profile" className="rounded-full" />
         <h1 className="text-blue-200">Mario Salinas</h1>
