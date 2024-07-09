@@ -10,3 +10,10 @@
           h-16 px-4 bg-primary text-white
           list-none;
 }
+.li-nav {
+  @apply cursor-pointer m-2;
+}
+
+.li-skills {
+  @apply hover:text-accent m-1;
+}

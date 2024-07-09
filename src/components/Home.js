@@ -4,14 +4,23 @@ import Skills from './Skills';
 
 function Home() {
   return (
-    <section id="home" className="relative flex items-center justify-center min-h-screen">
-      <div className="intro">
-        <img src={profilePhoto} alt="Profile" className="rounded-full" />
-        <h1 className="text-blue-200">Mario Salinas</h1>
-        <h2>Computer Science student and web developer passionate about innovative solutions and enhancing user experience.</h2>
+    <section id="home" className="relative flex items-center justify-center min-h-screen
+                                  m-6">
+      <div className="relative flex items-center justify-center min-h-screen flex-col text-center">
+        <img 
+          src={profilePhoto} 
+          alt="Profile" 
+          className="rounded-full m-4 border-4 border-secondary" 
+        />
+        <h1 className="text-3xl text-primary m-2">Mario Salinas</h1>
+        <h2 className="font-merriweather text-text">Computer Science student and web developer passionate about innovative solutions and enhancing user experience.</h2>
         <Skills />
+        <button className="bg-accent text-white w-1/2 h-2/3 py-2 rounded-2xl
+                          border-2 animate-shadow-pulse">
+          View Projects
+        </button>
       </div>
-      <button>View Projects</button>
+
     </section>
   );
 }
