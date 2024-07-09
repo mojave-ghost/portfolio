@@ -11,9 +11,13 @@
           list-none;
 }
 .li-nav {
-  @apply cursor-pointer m-2;
+  @apply cursor-pointer m-2 list-item;
 }
 
 .li-skills {
-  @apply hover:text-accent m-1;
+  @apply hover:text-accent m-1 text-base;
+}
+
+.project-img {
+  @apply w-full h-72 object-cover;
 }
