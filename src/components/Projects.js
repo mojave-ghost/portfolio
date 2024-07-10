@@ -5,8 +5,8 @@ import project2 from '../assets/images/results-card-component.png';
 function Projects() {
   return (
     <section>
-      <h2 className="m-4 text-2xl text-primary">Projects</h2>
-      <div id="projects" className="grid grid-cols-1 mx-8">
+      <h2 className="m-4 text-2xl text-primary" id="projects">Projects</h2>
+      <div className="grid grid-cols-1 mx-8">
         {project1 && (
           <div className="project-card">
             <img src={project1} alt="Project 1" className="project-img" />
