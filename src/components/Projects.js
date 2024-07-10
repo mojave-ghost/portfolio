@@ -10,17 +10,21 @@ function Projects() {
         {project1 && (
           <div className="project-card">
             <img src={project1} alt="Project 1" className="project-img" />
-            <h3 className="text-primary">Landing Page Component</h3>
-            <p className="text-text">A landing page component built with React.js and TailwindCSS.</p>
-            <a href="https://social-links-profile15.netlify.app">View Site</a>
+            <h3 className="text-primary text-xl">Landing Page Component</h3>
+            <p className="project-p">A landing page component built with React.js and TailwindCSS.</p>
+            <div className="relative flex flex-col items-center justify-center">
+              <a href="https://social-links-profile15.netlify.app" className="project-a my-1">View Site</a>
+            </div>
           </div> )
         }
         {project2 && (
           <div className="project-card">
             <img src={project2} alt="Project 2" className="project-img" />
-            <h3 className="text-primary">Results Card Component</h3>
-            <p className="text-text">A responsive results card component built with React.js and TailwindCSS.</p>
-            <a href="https://results-summary-component15.netlify.app">View Site</a>
+            <h3 className="text-primary text-xl">Results Card Component</h3>
+            <p className="project-p">A responsive results card component built with React.js and TailwindCSS.</p>
+            <div className="relative flex flex-col items-center justify-center">
+              <a href="https://results-summary-component15.netlify.app" className="project-a">View Site</a>
+            </div>
           </div> )
         }
 

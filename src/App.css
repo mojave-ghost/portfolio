@@ -11,7 +11,7 @@
           list-none;
 }
 .li-nav {
-  @apply cursor-pointer m-2 list-item;
+  @apply cursor-pointer m-2 ;
 }
 
 .li-skills {
@@ -19,5 +19,13 @@
 }
 
 .project-img {
-  @apply w-full h-72 object-cover;
+  @apply w-full h-72 object-cover my-4;
+}
+
+.project-p {
+  @apply text-text font-merriweather mx-2;
+}
+
+.project-a {
+  @apply bg-accent text-white px-6 py-1 rounded-lg;
 }
