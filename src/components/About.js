@@ -1,5 +1,4 @@
 import React from 'react';
-import resume from '../assets/mSalinasResume.pdf'; // Ensure you have a resume file in the assets folder
 
 function About() {
   return (
@@ -32,7 +31,6 @@ function About() {
         <br></br>
         I am excited about the opportunity to bring my skills, experiences, and enthusiasm to a forward-thinking company. Let’s create something amazing together!
 </p>
-      <a href={resume} download>Download Resume</a>
     </section>
   );
 }

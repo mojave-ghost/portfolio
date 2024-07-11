@@ -10,22 +10,29 @@
           h-16 px-4 bg-primary text-white
           list-none;
 }
+/* list styling */
 .li-nav {
   @apply cursor-pointer m-2 ;
 }
-
 .li-skills {
   @apply hover:text-accent m-1 text-base;
 }
 
+/* project component styling */
 .project-img {
   @apply w-full h-72 object-cover my-4;
 }
-
 .project-p {
   @apply text-text font-merriweather mx-2;
 }
-
 .project-a {
   @apply bg-accent text-white px-6 py-1 rounded-lg font-montserrat;
+}
+
+/* contact component styling */
+.contact-input {
+  @apply w-1/2 px-2 my-2 border border-accent rounded-lg font-merriweather;
+}
+.contact-label {
+  @apply text-text font-merriweather;
 }
