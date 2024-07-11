@@ -3,7 +3,7 @@ import React from 'react';
 function Contact() {
   return (
     <section id="contact">
-      <h2>Contact</h2>
+      <h2 className="text-2xl text-primary font-montserrat m-4">Contact</h2>
       <form>
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" name="name" />

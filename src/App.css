@@ -27,5 +27,5 @@
 }
 
 .project-a {
-  @apply bg-accent text-white px-6 py-1 rounded-lg;
+  @apply bg-accent text-white px-6 py-1 rounded-lg font-montserrat;
 }

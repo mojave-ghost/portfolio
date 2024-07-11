@@ -4,7 +4,7 @@ import resume from '../assets/mSalinasResume.pdf'; // Ensure you have a resume f
 function About() {
   return (
     <section id="about">
-      <h2 className="m-4 text-primary text-2xl">About Me</h2>
+      <h2 className="m-4 text-primary font-montserrat text-2xl">About Me</h2>
       <h3 className="mx-6 text-text font-merriweather text-lg">Welcome to my portfolio!</h3>
       <br></br>
       <p className="font-merriweather text-text mx-6">

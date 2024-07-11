@@ -12,13 +12,13 @@ function Home() {
           alt="Profile" 
           className="rounded-full m-4 border-8 border-secondary" 
         />
-        <h1 className="text-3xl text-primary my-2">Mario Salinas</h1>
+        <h1 className="text-3xl text-primary my-2 font-montserrat font-bold">Mario Salinas</h1>
         <h2 className="font-merriweather text-text mx-4 mb-2">
           Computer Science student and web developer passionate about innovative solutions and enhancing user experience.
         </h2>
         <Skills />
         <button className="bg-accent text-white w-1/2 h-2/3 py-2 rounded-2xl
-                          border-2 animate-shadow-pulse">
+                          border-2 animate-shadow-pulse font-montserrat">
           View Projects
         </button>
       </div>
