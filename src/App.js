@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
 import './index.css';
-import Home from './components/Home';
-import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
 import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Projects from './components/Projects';
+import About from './components/About';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Projects />
         <About />
         <Contact />
+        <Footer />
       </main>
     </div>
   );
