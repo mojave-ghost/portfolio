@@ -11,7 +11,11 @@ function Contact() {
         <input type="email" id="email" name="email" className="contact-input h-10" />
         <label htmlFor="message" className="contact-label">Message:</label>
         <textarea id="message" name="message" className="contact-input h-24"></textarea>
-        <button type="submit" className="bg-accent text-white px-6 py-1 rounded-lg font-montserrat my-6">
+        <button type="submit" 
+                className="bg-accent text-white 
+                          hover:bg-white hover:text-accent
+                            px-6 py-1 rounded-lg my-6 font-montserrat
+                            border-2 border-accent ">
           Send
         </button>
       </form>

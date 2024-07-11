@@ -17,8 +17,11 @@ function Home() {
           Computer Science student and web developer passionate about innovative solutions and enhancing user experience.
         </h2>
         <Skills />
-        <button className="bg-accent text-white w-1/2 h-2/3 py-2 rounded-2xl
-                          border-2 animate-shadow-pulse font-montserrat">
+        <button className="w-1/2 h-2/3 py-2 rounded-2xl
+                          bg-accent text-white 
+                          border-2 border-accent
+                          animate-shadow-pulse font-montserrat
+                          hover:bg-white hover:text-accent">
           View Projects
         </button>
       </div>

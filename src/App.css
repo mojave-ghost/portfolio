@@ -26,7 +26,11 @@
   @apply text-text font-merriweather mx-2;
 }
 .project-a {
-  @apply bg-accent text-white px-6 py-1 rounded-lg font-montserrat;
+  @apply  px-6 py-1 rounded-lg font-montserrat
+           border-2 border-accent
+          bg-accent text-white
+          hover:bg-white hover:text-accent 
+          hover:border-accent;
 }
 
 /* contact component styling */
