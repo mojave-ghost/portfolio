@@ -13,7 +13,7 @@ function Contact() {
         <textarea id="message" name="message" className="contact-input h-24"></textarea>
         <button type="submit" 
                 className="bg-accent text-white 
-                          hover:bg-white hover:text-accent
+                          hover:bg-secondary hover:text-accent
                             px-6 py-1 rounded-lg my-6 font-montserrat
                             border-2 border-accent ">
           Send

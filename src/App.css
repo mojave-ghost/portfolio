@@ -29,7 +29,7 @@
   @apply  px-6 py-1 rounded-lg font-montserrat
            border-2 border-accent
           bg-accent text-white
-          hover:bg-white hover:text-accent 
+          hover:bg-secondary hover:text-accent 
           hover:border-accent;
 }
 
@@ -52,7 +52,7 @@
     @apply relative flex items-center justify-center
             h-12 w-12 mt-2 mx-auto shadow-lg
             bg-accent text-white
-            hover:bg-white hover:text-text
+            hover:bg-secondary hover:text-text
             rounded-full hover:rounded-xl
             cursor-pointer;
   }

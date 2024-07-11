@@ -15,7 +15,7 @@ module.exports = {
         },
         'shadow-pulse': {
           '0%': { boxShadow: '0 0 0 0 rgba(255, 152, 0, 0.7)' },
-          '100%': { boxShadow: '0 0 0 15px rgba(255, 152, 0, 0)' },
+          '100%': { boxShadow: '0 0 0 20px rgba(255, 152, 0, 0)' },
         }
       },
       fontFamily: {
