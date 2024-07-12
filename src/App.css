@@ -50,16 +50,19 @@
   /* footer button styling */
   .footer-icon {
     @apply relative flex items-center justify-center
-            h-12 w-12 mt-2 mx-auto shadow-lg
+            h-12 w-12 mt-2 mx-5 shadow-lg
             bg-accent text-white
-            hover:bg-secondary hover:text-text
+            hover:bg-white hover:text-accent
             rounded-full hover:rounded-xl
+            transition-colors duration-300 ease-linear
             cursor-pointer;
   }
   .footer-tooltip {
-    @apply absolute w-auto p-2 m-2 min-w-max left-14
+    @apply absolute w-auto p-1 min-w-max
+            transform -translate-x-1/2 -translate-y-full
             rounded-md shadow-md
-            bg-accent text-white 
-            text-xs font-bold scale-0;
+            bg-accent text-white
+            text-xs font-bold
+            transition-all duration-100 scale-0;
   }
 }

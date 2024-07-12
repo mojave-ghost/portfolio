@@ -21,7 +21,8 @@ function Home() {
                           bg-accent text-white 
                           border-2 border-accent
                           animate-shadow-pulse font-montserrat
-                          hover:bg-secondary hover:text-accent">
+                          hover:bg-secondary hover:text-accent
+                          transition-colors duration-500 ease-linear">
           View Projects
         </button>
       </div>
