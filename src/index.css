@@ -5,8 +5,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .nav-bar {
-  @apply fixed top-0 left-0 right-0
+  @apply fixed top-0 left-0 right-0 z-50
           flex items-center justify-between
           h-16 px-4 bg-primary text-white
-          font-montserrat;
+          list-none;
+}
+/* list styling */
+.li-nav {
+  @apply cursor-pointer m-2 ;
+}
+.li-skills {
+  @apply hover:text-accent m-1 text-base;
+}
+
+/* project component styling */
+.project-card {
+  @apply h-full;
+}
+.project-img {
+  @apply w-full h-72 object-cover my-5
+          shadow-lg drop-shadow-xl;
+}
+.project-p {
+  @apply text-text font-merriweather mx-2 h-14;
+}
+.project-a {
+  @apply  px-6 py-1 rounded-lg font-montserrat
+           border-2 border-accent
+          bg-accent text-white
+          hover:bg-secondary hover:text-accent 
+          hover:border-accent;
+}
+
+/* contact component styling */
+.contact-input {
+  @apply w-1/2 px-2 my-2 border border-accent rounded-lg font-merriweather;
+}
+.contact-label {
+  @apply text-text font-merriweather;
+}
+
+/* footer component styling */
+.footer {
+  @apply bg-primary text-white text-center py-4
+         bottom-0 left-0 right-0;
+}
+@layer components {
+  /* footer button styling */
+  .footer-icon {
+    @apply relative flex items-center justify-center
+            h-12 w-12 mt-2 mx-5 shadow-lg
+            bg-accent text-white
+            hover:bg-white hover:text-accent
+            rounded-full hover:rounded-xl
+            transition-colors duration-300 ease-linear
+            cursor-pointer;
+  }
+  .footer-tooltip {
+    @apply absolute w-auto p-1 min-w-max
+            transform -translate-x-1/2 -translate-y-full
+            rounded-md shadow-md
+            bg-accent text-white
+            text-xs font-bold
+            transition-all duration-100 scale-0;
+  }
 }
