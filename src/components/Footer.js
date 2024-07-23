@@ -11,7 +11,7 @@ const Footer = () => {
       <h4>Get in touch: msalinas@example.com</h4>
       <p>© 2024 - Personal Portfolio</p>
       <div className="relative flex justify-center items-center">
-        <FooterIcon icon={<FaGithub />} text="GitHub" url="https://github.com/marioCoding" />
+        <FooterIcon icon={<FaGithub />} text="GitHub" url="https://github.com/mojabi-geist" />
         <FooterIcon icon={<FaLinkedin/>} text="LinkedIn" url="https://linkedin.com/in/mario-salinas-0b13a7236" />
         <FooterIcon icon={<SiFrontendmentor />} text="FrontendMentor" url="https://www.frontendmentor.io/profile/marioCoding" />
       </div>
