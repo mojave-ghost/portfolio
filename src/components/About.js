@@ -18,7 +18,7 @@ function About() {
         <br></br>
 	      •	<b>Languages</b>: Python, JavaScript, C++, C#, HTML
         <br></br>
-	      •	<b>Frameworks & Libraries</b>: React, Node, TailwindCSS, Express, MySQL
+	      •	<b>Frameworks & Libraries</b>: React, Node, TailwindCSS, Express, jQuery, MySQL
         <br></br>
 	      •	<b>Tools & Platforms</b>: Git, GitHub, Figma, Firebase, Vite
         <br></br>
