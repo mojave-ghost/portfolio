@@ -4,7 +4,7 @@ import project2 from '../assets/images/results-card-component.png';
 
 function Projects() {
   return (
-    <section>
+    <section className="my-4">
       <h2 className="m-4 text-2xl text-primary font-montserrat" id="projects">Projects</h2>
       <div className="grid grid-cols-1 mx-8
                       lg:grid-cols-2 lg:gap-6

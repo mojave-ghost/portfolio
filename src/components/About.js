@@ -16,17 +16,17 @@ function About() {
         My technical skill set includes:
         <br></br>
         <br></br>
-	      •	<b>Languages</b>: JavaScript, HTML, CSS, Python, C++
+	      •	<b>Languages</b>: Python, JavaScript, C++, C#, HTML
         <br></br>
-	      •	<b>Frameworks & Libraries</b>: React.js, Node.js, Tailwind CSS
+	      •	<b>Frameworks & Libraries</b>: React, Node, TailwindCSS, Express, MySQL
         <br></br>
-	      •	<b>Tools & Platforms</b>: Git, GitHub, Firebase, Vite
+	      •	<b>Tools & Platforms</b>: Git, GitHub, Figma, Firebase, Vite
         <br></br>
         <br></br>
         In addition to my academic pursuits, I have hands-on experience developing web applications and providing web development services on freelance platforms. This practical exposure has honed my skills in both front-end and back-end development, ensuring I can deliver comprehensive and scalable solutions.
         <br></br>
         <br></br>
-        When I’m not coding, you can find me exploring the outdoors, practicing tai-chi, or diving into a good book. I also enjoy staying up-to-date with the latest trends in video games and music.
+        When I’m not coding, you can find me exploring the outdoors, practicing tai-chi, or diving into a good anime. I also enjoy staying up-to-date with the latest trends in video games and music.
         <br></br>
         <br></br>
         I am excited about the opportunity to bring my skills, experiences, and enthusiasm to a forward-thinking company. Let’s create something amazing together!

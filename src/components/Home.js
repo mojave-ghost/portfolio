@@ -1,4 +1,5 @@
 import React from 'react';
+import Links from './Links';
 import profilePhoto from '../assets/images/bioPhoto.jpeg'; // Ensure you have a profile photo in the assets folder
 import Skills from './Skills';
 
@@ -15,9 +16,9 @@ function Home() {
         <h2 className="font-merriweather text-text mx-4 mb-2">
           Computer Science student and web developer passionate about innovative solutions and enhancing user experience.
         </h2>
-        <Skills />
+        <Links />
         <a href="#projects"
-          className="w-1/2 h-2/3 py-2 rounded-2xl
+          className="w-1/2 h-2/3 py-2 rounded-2xl my-4
                           bg-accent text-white 
                           border-2 border-accent
                           animate-shadow-pulse font-montserrat
