@@ -1,5 +1,5 @@
 import React from 'react';
-import project1 from '../assets/images/landing-page-component.png';
+import project1 from '../assets/images/shatteronline.png';
 import project2 from '../assets/images/results-card-component.png';
 
 function Projects() {
@@ -12,10 +12,10 @@ function Projects() {
         {project1 && (
           <div className="project-card">
             <img src={project1} alt="Project 1" className="project-img" />
-            <h3 className="text-primary text-xl font-montserrat">Landing Page Component</h3>
-            <p className="project-p">A landing page component built with React.js and TailwindCSS.</p>
+            <h3 className="text-primary text-xl font-montserrat">Shatter.io</h3>
+            <p className="project-p">A website that features World of Warcraft PvP stats.</p>
             <div className="relative flex flex-col items-center justify-center">
-              <a href="https://social-links-profile15.netlify.app" className="project-a" target="_blank" rel="noreferrer">View Site</a>
+              <a href="https://shatteronline.netlify.app" className="project-a" target="_blank" rel="noreferrer">View Site</a>
             </div>
           </div> )
         }
