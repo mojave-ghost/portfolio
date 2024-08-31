@@ -12,9 +12,6 @@ const Links = () => {
       <a href="https://www.frontendmentor.io/profile/mojabi-geist" target="_blank" rel="noreferrer" className="link-button">
         Frontend Mentor
       </a>
-      <a href="#" target="_blank" rel="noreferrer" className="link-button">
-        CV
-      </a>
     </section>
    );
 }
