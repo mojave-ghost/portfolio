@@ -1,7 +1,6 @@
 import React from 'react';
 import Links from './Links';
 import profilePhoto from '../assets/images/bioPhoto.jpeg'; // Ensure you have a profile photo in the assets folder
-import Skills from './Skills';
 
 function Home() {
   return (
