@@ -6,7 +6,7 @@ const Links = () => {
       <a href="https://www.linkedin.com/in/mario-salinas-0b13a7236" target="_blank" rel="noreferrer" className="link-button">
         LinkedIn
       </a>
-      <a href="https://github.com/mojabi-geist" target="_blank" rel="noreferrer" className="link-button">
+      <a href="https://github.com/mojabi-ghost" target="_blank" rel="noreferrer" className="link-button">
         GitHub
       </a>
       <a href="https://www.frontendmentor.io/profile/mojabi-geist" target="_blank" rel="noreferrer" className="link-button">
