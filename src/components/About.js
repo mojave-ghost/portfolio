@@ -6,30 +6,29 @@ function About() {
       <h2 className="m-4 text-primary font-montserrat text-2xl">About Me</h2>
       <h3 className="mx-6 text-text font-merriweather text-lg">Welcome to my portfolio!</h3>
       <br></br>
-      <p className="font-merriweather text-text mx-6">
-        I am a senior computer science student at California State University, East Bay, living in Oakland, CA. As a dedicated and passionate web developer, I specialize in creating dynamic and responsive websites. My journey in tech began with a deep curiosity for how things work and has evolved into a full-fledged career path where I constantly push the boundaries of what is possible.
-        <br></br>
-        <br></br>
-        As the first in my family to transition into a white-collar profession, I bring a unique perspective and a strong work ethic to everything I do. My experiences have taught me resilience and the importance of perseverance, which are evident in my approach to problem-solving and coding.
-        <br></br>
-        <br></br>
-        My technical skill set includes:
-        <br></br>
-        <br></br>
-	      •	<b>Languages</b>: Python, JavaScript, C++, C#, HTML
-        <br></br>
-	      •	<b>Frameworks & Libraries</b>: React, Node, TailwindCSS, Express, jQuery, MySQL
-        <br></br>
-	      •	<b>Tools & Platforms</b>: Git, GitHub, Figma, Firebase, Vite
-        <br></br>
-        <br></br>
-        In addition to my academic pursuits, I have hands-on experience developing web applications and providing web development services on freelance platforms. This practical exposure has honed my skills in both front-end and back-end development, ensuring I can deliver comprehensive and scalable solutions.
-        <br></br>
-        <br></br>
-        When I’m not coding, you can find me exploring the outdoors, practicing tai-chi, or diving into a good anime. I also enjoy staying up-to-date with the latest trends in video games and music.
-        <br></br>
-        <br></br>
-        I am excited about the opportunity to bring my skills, experiences, and enthusiasm to a forward-thinking company. Let’s create something amazing together!
+     <p className="font-merriweather text-text mx-6">
+  Experienced full-stack developer specializing in modern web application development with a strong foundation in computer science from California State University, East Bay. Based in Oakland, CA, I deliver high-performing, responsive, and user-centric digital solutions for businesses across industries.
+  <br></br>
+  <br></br>
+  My development philosophy centers on creating scalable, maintainable code that solves real business challenges. I bring a structured methodology to every project, from requirements gathering through deployment and maintenance. My background in both academic computer science and practical implementation allows me to approach problems with both theoretical knowledge and hands-on experience.
+  <br></br>
+  <br></br>
+  My technical expertise includes:
+  <br></br>
+  <br></br>
+  • <b>Front-End Development</b>: JavaScript, React, TailwindCSS, HTML5, jQuery
+  <br></br>
+  • <b>Back-End Solutions</b>: Node.js, Express, C#, Python, C++
+  <br></br>
+  • <b>Database Management</b>: MySQL, Firebase
+  <br></br>
+  • <b>Development Tools</b>: Git, GitHub, Figma, Vite
+  <br></br>
+  <br></br>
+  With extensive experience providing web development services through freelance platforms, I've refined my ability to translate client requirements into functional, elegant solutions. I specialize in creating responsive, mobile-first web applications, developing custom React components, building robust API integrations, and optimizing web performance.
+  <br></br>
+  <br></br>
+  I am committed to clear communication, meeting deadlines, and exceeding expectations on every project. Ready to help transform your digital vision into reality with efficient, clean code and innovative solutions. Let's create something amazing together!
 </p>
     </section>
   );
