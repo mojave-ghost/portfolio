@@ -1,13 +1,13 @@
 import React from 'react';
 import Links from './Links';
-import profilePhoto from '../assets/images/profile-pic (1).jpeg'; // Ensure you have a profile photo in the assets folder
+
 
 function Home() {
   return (
     <section id="home" className="relative flex items-center justify-center min-h-screen">
       <div className="relative flex items-center justify-center min-h-screen flex-col text-center">
         <img 
-          src={profilePhoto} 
+          src="biophoto.jpeg"
           alt="Profile" 
           className="rounded-full border-8 border-secondary" 
         />
