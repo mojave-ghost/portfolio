@@ -16,7 +16,7 @@ function Home() {
           style={{ aspectRatio: '1/1' }}
         />
         <h1 className="text-3xl text-primary my-2 font-montserrat font-bold">Mario Salinas</h1>
-        <h2 className="font-merriweather text-text mx-4 mb-2">
+        <h2 className="text-text mx-4 mb-2">
           Computer Science student and web developer passionate about innovative solutions and enhancing user experience.
         </h2>
         <Links />

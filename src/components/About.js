@@ -4,9 +4,9 @@ function About() {
   return (
     <section id="about">
       <h2 className="m-4 text-primary font-montserrat text-2xl">About Me</h2>
-      <h3 className="mx-6 text-text font-merriweather text-lg">Welcome to my portfolio!</h3>
+      <h3 className="mx-6 text-text text-lg">Welcome to my portfolio!</h3>
       <br></br>
-     <p className="font-merriweather text-text mx-6">
+     <p className="text-text mx-6">
   Experienced full-stack developer specializing in modern web application development with a strong foundation in computer science from California State University, East Bay. Based in Oakland, CA, I deliver high-performing, responsive, and user-centric digital solutions for businesses across industries.
   <br></br>
   <br></br>
