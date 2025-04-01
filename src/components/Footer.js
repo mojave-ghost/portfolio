@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <h4>Get in touch: msalinas@example.com</h4>
-      <p>© 2024 - Personal Portfolio</p>
+      <p>© 2025 - Personal Portfolio</p>
       <div className="relative flex justify-center items-center">
         <FooterIcon icon={<FaGithub />} text="GitHub" url="https://github.com/mojave-ghost" />
         <FooterIcon icon={<FaLinkedin/>} text="LinkedIn" url="https://linkedin.com/in/mario-salinas-0b13a7236" />

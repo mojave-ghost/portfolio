@@ -7,7 +7,7 @@ function Home() {
     <section id="home" className="relative flex items-center justify-center min-h-screen">
       <div className="relative flex items-center justify-center min-h-screen flex-col text-center">
         <img 
-          src="biophoto.jpeg"
+          src="bioPhoto.webp"
           alt="Profile" 
           className="rounded-full border-8 border-secondary"
           loading="lazy"
