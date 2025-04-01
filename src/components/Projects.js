@@ -8,7 +8,10 @@ function Projects() {
                       2xl:grid-cols-3 2xl:gap-8">
         {"./shatteronline.png" && (
           <div className="project-card">
-            <img src="./shatteronline.webp" alt="Shatter Online" className="project-img" />
+            <img src="./shatteronline.webp" 
+                  alt="Shatter Online" 
+                  className="project-img"
+                  loading="lazy" />
             <h3 className="text-primary text-xl font-montserrat">Shatter.io</h3>
             <p className="project-p">A website that features World of Warcraft PvP stats.</p>
             <div className="relative flex flex-col items-center justify-center">
@@ -18,7 +21,10 @@ function Projects() {
         }
         {"results-component-card" && (
           <div className="project-card">
-            <img src="results-card-component.webp" alt="Project 2" className="project-img" />
+            <img src="results-card-component.webp" 
+                  alt="Project 2" 
+                  className="project-img"
+                  loading="lazy" />
             <h3 className="text-primary text-xl font-montserrat">Results Card Component</h3>
             <p className="project-p">A responsive results card component built with React.js and TailwindCSS.</p>
             <div className="relative flex flex-col items-center justify-center">

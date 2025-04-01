@@ -9,7 +9,11 @@ function Home() {
         <img 
           src="biophoto.jpeg"
           alt="Profile" 
-          className="rounded-full border-8 border-secondary" 
+          className="rounded-full border-8 border-secondary"
+          loading="lazy"
+          width="200"
+          height="200"
+          style={{ aspectRatio: '1/1' }}
         />
         <h1 className="text-3xl text-primary my-2 font-montserrat font-bold">Mario Salinas</h1>
         <h2 className="font-merriweather text-text mx-4 mb-2">
