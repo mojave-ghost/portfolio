@@ -4,7 +4,9 @@ import Links from './Links';
 
 function Home() {
   return (
-    <section id="home" className="relative flex items-center justify-center min-h-screen">
+    <section id="home" 
+              data-testid="home-section"
+              className="relative flex items-center justify-center min-h-screen">
       <div className="relative flex items-center justify-center min-h-screen flex-col text-center">
         <img 
           src="bioPhoto.webp"
