@@ -23,10 +23,13 @@ module.exports = {
         'merriweather': ['Merriweather', 'serif'],      // body font
       },
       colors: {
-        primary: '#1a237e',     // Deep blue
-        secondary: '#f5f5f5',   // Light gray
-        accent: '#ff9800',      // Orange
-        text: '#333333',        // Dark gray
+        primary:   '#6b8e23',     // Forest Green
+        secondary: '#f7f5f3',   // Hobbit Cream
+        accent:   '#d2691e',      // Autumn Orange
+        text:     '#333333',        // Dark gray
+        support1: '#2d4a2b',    // Deep Forest Green
+        support2: '#8b7355',    // Earthly Brown
+        support3: '#d4af37',    // Gold Ring
       }
     },
   },
