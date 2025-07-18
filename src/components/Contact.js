@@ -3,7 +3,7 @@ import React from 'react';
 function Contact() {
   return (
     <section id="contact">
-      <h2 className="text-2xl text-primary font-montserrat my-6 mx-4">Contact</h2>
+      <h2 className="text-5xl font-bold text-primary font-montserrat my-6 mx-4">Contact</h2>
       <form className="relative flex flex-col items-center justify-center">
         <label htmlFor="name" className="contact-label">Name:</label>
         <input type="text" id="name" name="name" className="contact-input h-10"/>
