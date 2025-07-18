@@ -8,7 +8,7 @@ function Projects() {
                       2xl:grid-cols-3 2xl:gap-8">
       {"results-component-card" && (
           <div className="project-card">
-            <img src="results-card-component.webp" 
+            <img src="Modern-Interactive-landing-page.png" 
                   alt="Project 2" 
                   className="project-img"
                   loading="lazy"
@@ -26,7 +26,7 @@ function Projects() {
       }
         {"results-component-card" && (
           <div className="project-card">
-            <img src="results-card-component.webp" 
+            <img src="Conversion-driven-landing-page.png" 
                   alt="Project 2" 
                   className="project-img"
                   loading="lazy"
@@ -44,7 +44,7 @@ function Projects() {
         }
         {"results-component-card" && (
           <div className="project-card">
-            <img src="results-card-component.webp" 
+            <img src="Basic-landing-page.png" 
                   alt="Project 2" 
                   className="project-img"
                   loading="lazy"
