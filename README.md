@@ -1,70 +1,150 @@
-# Getting Started with Create React App
+# 🌿 Mario Salinas - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A hobbit-inspired portfolio website showcasing my journey as a full-stack developer. Built with React and TailwindCSS, featuring custom SVG graphics and a warm, countryside aesthetic reminiscent of the Shire.
 
-## Available Scripts
+## 🎯 Features
 
-In the project directory, you can run:
+- **Hobbit-Themed Design**: Custom SVG graphics including hobbit holes, countryside landscapes, and peaceful Shire-inspired scenes
+- **Responsive Layout**: Mobile-first design that looks great on all devices
+- **Interactive Elements**: Smooth animations, hover effects, and engaging UI components
+- **Circular Project Windows**: Projects displayed as hobbit hole "windows" with golden borders
+- **Modern Tech Stack**: Built with React, TailwindCSS, and custom components
 
-### `npm start`
+## 🛠️ Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React, JavaScript, HTML5
+- **Styling**: TailwindCSS with custom color palette
+- **Graphics**: Custom SVG illustrations
+- **Fonts**: Montserrat (headings), Merriweather (body text)
+- **Deployment**: [Your deployment platform]
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎨 Design System
 
-### `npm test`
+### Color Palette
+```css
+primary:   #6b8e23  /* Forest Green */
+secondary: #f7f5f3  /* Hobbit Cream */
+accent:    #d2691e  /* Autumn Orange */
+text:      #333333  /* Dark Gray */
+support1:  #2d4a2b  /* Deep Forest Green */
+support2:  #8b7355  /* Earthly Brown */
+support3:  #d4af37  /* Gold Ring */
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Typography
+- **Headings**: Montserrat (clean, modern)
+- **Body Text**: Merriweather (readable, elegant)
 
-### `npm run build`
+## 🏗️ Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+src/
+├── components/
+│   ├── Home.js          # Hero section with hobbit hole graphic
+│   ├── Projects.js      # Project showcase with circular windows
+│   ├── About.js         # About section with countryside background
+│   ├── Contact.js       # Contact form
+│   ├── NavBar.js        # Navigation component
+│   ├── Links.js         # Social media links
+│   └── Footer.js        # Footer component
+├── App.js               # Main application component
+├── App.css              # Global styles
+└── index.js             # React entry point
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn package manager
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/portfolio.git
+   cd portfolio
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Start development server**
+   ```bash
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **Open in browser**
+   ```
+   http://localhost:3000
+   ```
 
-## Learn More
+### Build for Production
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm run build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎨 Custom Components
 
-### Code Splitting
+### HobbitGraphic Component
+- Custom SVG illustration for the hero section
+- Features hobbit hole doors, windows, chimneys, and magical elements
+- Responsive design with proper aspect ratios
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### HobbitCountrysideGraphic Component
+- Peaceful countryside scene for the About section
+- Rolling hills, winding paths, oak trees, and pastoral elements
+- Optimized opacity for text readability
 
-### Analyzing the Bundle Size
+### Project Cards
+- Circular image windows inspired by hobbit hole architecture
+- Golden borders and hover effects
+- Responsive grid layout
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📱 Responsive Design
 
-### Making a Progressive Web App
+The portfolio is fully responsive with breakpoints:
+- **Mobile**: < 768px
+- **Tablet**: 768px - 1024px
+- **Desktop**: 1024px+
+- **Large Desktop**: 1280px+
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🌟 Featured Projects
 
-### Advanced Configuration
+1. **Modern Interactive Landing Page** - Cutting-edge web design trends for 2025
+2. **Conversion-Driven Landing Page** - High-converting business solutions
+3. **Basic Landing Page** - Clean, simple design reference
+4. **Shatter.io** - World of Warcraft PvP stats search tool
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🎯 About Me
 
-### Deployment
+Computer Science student and full-stack developer from Oakland, CA, specializing in:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Frontend**: JavaScript, React, TailwindCSS, HTML5, jQuery
+- **Backend**: Node.js, Express, C#, Python, C++
+- **Database**: MySQL, Firebase
+- **Tools**: Git, GitHub, Figma, Vite
 
-### `npm run build` fails to minify
+## 📬 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Email**: [your.email@example.com]
+- **LinkedIn**: [Your LinkedIn Profile]
+- **GitHub**: [Your GitHub Profile]
+- **Upwork**: [Your Upwork Profile]
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Inspired by J.R.R. Tolkien's Middle-earth and the peaceful Shire
+- TailwindCSS for the amazing utility-first framework
+- React community for excellent documentation and resources
+
+---
+
+*"Not all those who wander are lost, but those who code usually know exactly where they're going."* ⚔️✨
