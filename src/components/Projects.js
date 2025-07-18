@@ -3,7 +3,7 @@ import React from 'react';
 function Projects() {
   return (
     <section className="my-4">
-      <h2 className="m-4 text-primary font-montserrat text-2xl" id="projects">Projects</h2>
+      <h2 className="m-4 text-primary font-montserrat text-5xl font-bold" id="projects">Projects</h2>
       <div className="grid grid-cols-1 mx-8 gap-6
                       lg:grid-cols-2 lg:gap-6
                       2xl:grid-cols-3 2xl:gap-8">
