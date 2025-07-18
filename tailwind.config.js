@@ -19,8 +19,8 @@ module.exports = {
         }
       },
       fontFamily: {
-        'montserrat': ['Montserrat', 'sans-serif'],     // heading font
-        'merriweather': ['Merriweather', 'serif'],      // body font
+        'montserrat':    ['Cinzel', 'serif'],           // for headings and a more fantasy feel
+        'merriweather':  ['Roboto', 'sans-serif'],      // for readability and modern look
       },
       colors: {
         primary:   '#6b8e23',     // Forest Green
