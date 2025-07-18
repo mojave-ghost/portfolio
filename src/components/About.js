@@ -206,9 +206,9 @@ function About() {
       {/* Content with overlay */}
       <div className="relative z-10">
         <h2 className="m-4 text-primary font-montserrat text-2xl">About Me</h2>
-        <h3 className="mx-6 text-support3 text-lg font-semibold" style={{WebkitTextStroke: '0.15px black'}}>Welcome to my portfolio!</h3>
+        <h3 className="mx-6 text-support3 text-lg font-semibold" style={{WebkitTextStroke: '0.25px black'}}>Welcome to my portfolio!</h3>
         <br></br>
-        <p className="text-support3 mx-6 my-4 leading-relaxed" style={{WebkitTextStroke: '0.15px black'}}>
+        <p className="text-support3 mx-6 my-4 leading-relaxed" style={{WebkitTextStroke: '0.25px black'}}>
           Experienced full-stack developer specializing in modern web application development with a strong foundation in computer science from California State University, East Bay. Based in Oakland, CA, I deliver high-performing, responsive, and user-centric digital solutions for businesses across industries.
           <br></br>
           <br></br>
