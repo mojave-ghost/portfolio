@@ -205,10 +205,10 @@ function About() {
       
       {/* Content with overlay */}
       <div className="relative z-10">
-        <h2 className="m-4 text-primary font-montserrat text-2xl"}>About Me</h2>
+        <h2 className="m-4 text-primary font-montserrat text-2xl">About Me</h2>
         <h3 className="mx-6 text-white text-lg" style={{textShadow: '2px 2px 4px rgba(135, 206, 235, 0.8)', WebkitTextStroke: '1px #87ceeb'}}>Welcome to my portfolio!</h3>
         <br></br>
-        <p className="text-white mx-6 my-4" style={{textShadow: '2px 2px 4px rgba(135, 206, 235, 0.8)', WebkitTextStroke: '1px #87ceeb'}}>
+        <p className="text-white mx-6" style={{textShadow: '2px 2px 4px rgba(135, 206, 235, 0.8)', WebkitTextStroke: '1px #87ceeb'}}>
           Experienced full-stack developer specializing in modern web application development with a strong foundation in computer science from California State University, East Bay. Based in Oakland, CA, I deliver high-performing, responsive, and user-centric digital solutions for businesses across industries.
           <br></br>
           <br></br>
