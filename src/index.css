@@ -2,11 +2,72 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Enhanced nav-bar styling for mobile */
 .nav-bar {
   @apply top-0 left-0 right-0 z-50
           flex items-center justify-between
           h-16 px-2 sm:px-4 bg-primary text-white
-          list-none;
+          list-none fixed; /* Make it fixed for better mobile experience */
+}
+
+/* Hamburger menu animation styles */
+.hamburger-line {
+  @apply block w-6 h-0.5 bg-support3 transition-all duration-300;
+}
+
+.hamburger-line.active:first-child {
+  @apply rotate-45 translate-y-1.5;
+}
+
+.hamburger-line.active:nth-child(2) {
+  @apply opacity-0;
+}
+
+.hamburger-line.active:last-child {
+  @apply -rotate-45 -translate-y-1.5;
+}
+
+/* Mobile menu styling */
+.mobile-menu {
+  @apply fixed top-16 left-0 right-0 bg-primary 
+         border-t border-accent z-50 
+         transform transition-all duration-300 ease-in-out;
+}
+
+.mobile-menu.open {
+  @apply translate-y-0 opacity-100 visible;
+}
+
+.mobile-menu.closed {
+  @apply -translate-y-4 opacity-0 invisible;
+}
+
+/* Mobile menu items */
+.mobile-menu-item {
+  @apply block px-6 py-4 text-support3 font-bold font-montserrat text-lg
+         border-b border-accent border-opacity-20 last:border-b-0
+         hover:bg-accent hover:bg-opacity-10 
+         transition-colors duration-200;
+}
+
+/* Prevent body scroll when menu is open */
+body.menu-open {
+  @apply overflow-hidden;
+}
+
+/* Add padding to body to account for fixed navbar */
+body {
+  @apply pt-16; /* Add top padding equal to navbar height */
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  @apply scroll-smooth;
+}
+
+/* Ensure main content starts below fixed navbar */
+main {
+  @apply pt-4; /* Additional spacing if needed */
 }
 
 /* Links component - Mobile responsive */
