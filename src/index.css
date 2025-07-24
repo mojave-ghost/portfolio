@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --color-primary: ##6b8e23;    // Forest Green
-  --color-secondary: ##f7f5f3;  // Hobbit Cream
-  --color-accent: #d2691e;      // Autumn Orange
-  --color-text: #333333;        // Dark gray
+  --color-primary: ##6b8e23;    /* Forest Green */
+  --color-secondary: ##f7f5f3;  /* Hobbit Cream */ 
+  --color-accent: #d2691e;      /* Autumn Orange */
+  --color-text: #333333;        /* Dark gray */
 }
 
 
