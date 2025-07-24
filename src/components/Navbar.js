@@ -25,8 +25,8 @@ const Navbar = () => {
         Mario Salinas
       </h1>
 
-      {/* Desktop Menu */}
-      <ul className="hidden md:flex items-center justify-center text-support3 font-bold font-montserrat">
+      {/* Desktop Menu - Show on medium screens and up */}
+      <ul className="flex items-center justify-center text-support3 font-bold font-montserrat max-md:hidden">
         {navItems.map((item) => (
           <li key={item.label} className="li-nav">
             <a href={item.href} className="transition-colors duration-200 hover:text-accent">
@@ -36,10 +36,10 @@ const Navbar = () => {
         ))}
       </ul>
 
-      {/* Mobile Hamburger Button */}
+      {/* Mobile Hamburger Button - Show on small screens only */}
       <button
         onClick={toggleMenu}
-        className="md:hidden flex flex-col items-center justify-center w-8 h-8 mr-2 focus:outline-none"
+        className="flex flex-col items-center justify-center w-8 h-8 mr-2 focus:outline-none md:hidden"
         aria-label="Toggle menu"
       >
         <span 
