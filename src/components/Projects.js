@@ -75,7 +75,7 @@ function Projects() {
         <div className="project-card flex flex-col h-full p-6 bg-gradient-to-b from-secondary to-primary/10 rounded-3xl border-4 border-support3 shadow-lg hover:shadow-xl transition-all duration-300">
           <div className="relative mb-4">
             <img src="./shatteronline (1).webp" 
-                  alt="Shatter Online" 
+                  alt="luna-the-llama" 
                   className="w-full h-64 object-cover rounded-full border-4 border-support3 shadow-md"
                   loading="lazy"
                   width="400"
@@ -83,10 +83,12 @@ function Projects() {
                   style={{ aspectRatio: '1/1' }} />
             <div className="absolute inset-0 rounded-full border-2 border-support3/50 opacity-50"></div>
           </div>
-          <h3 className="text-text text-xl font-montserrat mt-2 mb-3 font-bold">Shatter.io</h3>
-          <p className="text-text flex-grow mb-4 text-sm leading-relaxed">A search bar that retrieves World of Warcraft players' PvP Stats.</p>
+          <h3 className="text-text text-xl font-montserrat mt-2 mb-3 font-bold">Creative Portfolio</h3>
+          <p className="text-text flex-grow mb-4 text-sm leading-relaxed">A stellar portfolio website showcasing creative design services for freelancers and independent businesses. 
+              This project demonstrates modern web design principles with a playful cosmic theme.
+          </p>
           <div className="relative flex flex-col items-center justify-center mt-auto">
-            <a href="https://shatteronline.netlify.app/" 
+            <a href="https://luna-the-llama.netlify.app" 
                className="px-6 py-2 bg-accent hover:bg-accent/80 text-secondary rounded-full font-montserrat font-semibold shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105" 
                target="_blank" rel="noreferrer">View Site</a>
           </div>
