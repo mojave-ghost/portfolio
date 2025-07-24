@@ -74,7 +74,7 @@ function Projects() {
 
         <div className="project-card flex flex-col h-full p-6 bg-gradient-to-b from-secondary to-primary/10 rounded-3xl border-4 border-support3 shadow-lg hover:shadow-xl transition-all duration-300">
           <div className="relative mb-4">
-            <img src="./shatteronline (1).webp" 
+            <img src="luna-the-llama.png" 
                   alt="luna-the-llama" 
                   className="w-full h-64 object-cover rounded-full border-4 border-support3 shadow-md"
                   loading="lazy"
