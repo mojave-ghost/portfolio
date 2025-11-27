@@ -170,7 +170,7 @@ function Home() {
       {/* Content Overlay */}
       <div className="relative z-10 flex items-center justify-center min-h-screen flex-col text-center">
         <img 
-          src="profile_pic.png"
+          src="profile-pic.png"
           alt="Profile" 
           className="rounded-full border-8 border-support2 shadow-lg"
           loading="lazy"
