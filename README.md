@@ -1,4 +1,4 @@
-# 🌿 Mario Salinas - Portfolio Website
+# 🌿 Portfolio Website
 
 A hobbit-inspired portfolio website showcasing my journey as a full-stack developer. Built with React and TailwindCSS, featuring custom SVG graphics and a warm, countryside aesthetic reminiscent of the Shire.
 
@@ -16,7 +16,6 @@ A hobbit-inspired portfolio website showcasing my journey as a full-stack develo
 - **Styling**: TailwindCSS with custom color palette
 - **Graphics**: Custom SVG illustrations
 - **Fonts**: Montserrat (headings), Merriweather (body text)
-- **Deployment**: [Your deployment platform]
 
 ## 🎨 Design System
 
@@ -127,17 +126,6 @@ Computer Science student and full-stack developer from Oakland, CA, specializing
 - **Backend**: Node.js, Express, C#, Python, C++
 - **Database**: MySQL, Firebase
 - **Tools**: Git, GitHub, Figma, Vite
-
-## 📬 Contact
-
-- **Email**: [your.email@example.com]
-- **LinkedIn**: [Your LinkedIn Profile]
-- **GitHub**: [Your GitHub Profile]
-- **Upwork**: [Your Upwork Profile]
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
